@@ -1,0 +1,6 @@
+framework module ScrollView {
+  umbrella header "ScrollView.h"
+
+  export *
+  module * { export * }
+}

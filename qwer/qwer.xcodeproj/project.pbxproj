@@ -14,6 +14,7 @@
 		04B7E43820B7945B00F6AB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B7E43620B7945B00F6AB15 /* LaunchScreen.storyboard */; };
 		04B7E43B20B7945B00F6AB15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7E43A20B7945B00F6AB15 /* main.m */; };
 		04B7E44520B7945B00F6AB15 /* qwerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7E44420B7945B00F6AB15 /* qwerUITests.m */; };
+		04B7E47220B7A2D800F6AB15 /* ScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B7E47120B7A2D800F6AB15 /* ScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		04B7E44020B7945B00F6AB15 /* qwerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qwerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B7E44420B7945B00F6AB15 /* qwerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qwerUITests.m; sourceTree = "<group>"; };
 		04B7E44620B7945B00F6AB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B7E47120B7A2D800F6AB15 /* ScrollView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScrollView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B7E47220B7A2D800F6AB15 /* ScrollView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		04B7E42A20B7945B00F6AB15 /* qwer */ = {
 			isa = PBXGroup;
 			children = (
+				04B7E47120B7A2D800F6AB15 /* ScrollView.framework */,
 				04B7E42B20B7945B00F6AB15 /* AppDelegate.h */,
 				04B7E42C20B7945B00F6AB15 /* AppDelegate.m */,
 				04B7E42E20B7945B00F6AB15 /* ViewController.h */,
@@ -358,6 +362,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/qwer",
+				);
 				INFOPLIST_FILE = qwer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rogue.qwer;
@@ -371,6 +379,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/qwer",
+				);
 				INFOPLIST_FILE = qwer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rogue.qwer;
