@@ -16,4 +16,4 @@ A simple multicast map
 }
 ```
 ###
-![ 效果图 ](https://github.com/RogueYBJ/YBJScrollView/raw/xgt.gif)
+![ 效果图 ](https://github.com/RogueYBJ/YBJScrollView/xgt.gif)
