@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0400793620BEC3E4009B771C /* ScrollV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400793520BEC3E3009B771C /* ScrollV.m */; };
+		0400793C20C01080009B771C /* PageC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400793A20C01080009B771C /* PageC.m */; };
+		0400793F20C01107009B771C /* ScrollV.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400793E20C01107009B771C /* ScrollV.m */; };
 		04B7E42D20B7945B00F6AB15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7E42C20B7945B00F6AB15 /* AppDelegate.m */; };
 		04B7E43020B7945B00F6AB15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B7E42F20B7945B00F6AB15 /* ViewController.m */; };
 		04B7E43320B7945B00F6AB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B7E43120B7945B00F6AB15 /* Main.storyboard */; };
@@ -29,8 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0400793420BEC3E3009B771C /* ScrollV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollV.h; sourceTree = "<group>"; };
-		0400793520BEC3E3009B771C /* ScrollV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollV.m; sourceTree = "<group>"; };
+		0400793A20C01080009B771C /* PageC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageC.m; sourceTree = "<group>"; };
+		0400793B20C01080009B771C /* PageC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageC.h; sourceTree = "<group>"; };
+		0400793D20C01107009B771C /* ScrollV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollV.h; sourceTree = "<group>"; };
+		0400793E20C01107009B771C /* ScrollV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollV.m; sourceTree = "<group>"; };
 		04B7E42820B7945B00F6AB15 /* qwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B7E42B20B7945B00F6AB15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04B7E42C20B7945B00F6AB15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,8 +72,10 @@
 		0400793320BEC3D0009B771C /* ScrollV */ = {
 			isa = PBXGroup;
 			children = (
-				0400793420BEC3E3009B771C /* ScrollV.h */,
-				0400793520BEC3E3009B771C /* ScrollV.m */,
+				0400793D20C01107009B771C /* ScrollV.h */,
+				0400793E20C01107009B771C /* ScrollV.m */,
+				0400793B20C01080009B771C /* PageC.h */,
+				0400793A20C01080009B771C /* PageC.m */,
 			);
 			path = ScrollV;
 			sourceTree = "<group>";
@@ -223,7 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B7E43020B7945B00F6AB15 /* ViewController.m in Sources */,
-				0400793620BEC3E4009B771C /* ScrollV.m in Sources */,
+				0400793F20C01107009B771C /* ScrollV.m in Sources */,
+				0400793C20C01080009B771C /* PageC.m in Sources */,
 				04B7E43B20B7945B00F6AB15 /* main.m in Sources */,
 				04B7E42D20B7945B00F6AB15 /* AppDelegate.m in Sources */,
 			);
